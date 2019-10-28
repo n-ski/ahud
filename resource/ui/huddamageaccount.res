@@ -27,7 +27,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"Damage Numbers"
-		"font"			"aRegular20"
+		"font"			"aRegular20Outline"
 	}
 	
 	"DamageAccountValueShadow"
@@ -39,8 +39,8 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"ShadowBlack"
