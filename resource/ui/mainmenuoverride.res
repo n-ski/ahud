@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -244,6 +246,12 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
+	
+	"DashboardDimmer"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 	
 	"TFCharacterImage"
 	{
@@ -1410,7 +1418,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"aRegular8"
-		"labelText"		"v2018.0412"
+		"labelText"		"v2019.1218"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
