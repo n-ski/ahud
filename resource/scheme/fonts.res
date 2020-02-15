@@ -485,6 +485,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"aRegular55Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		// SHADOWS
 		"aBoldShadow9"
 		{
