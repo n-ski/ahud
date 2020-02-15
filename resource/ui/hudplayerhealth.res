@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0.5"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 	
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"aRegular55"
+		"font"			"aRegular55Outline"
 		"fgcolor"		"HP"
 	}
 	
