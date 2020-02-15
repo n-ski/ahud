@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"aRegular55"
+		"font"			"aRegular55Outline"
 		"fgcolor"		"Ammo In Clip"
 		"xpos"			"0"
 		"ypos"			"30"
@@ -72,7 +72,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"aRegular24"
+		"font"			"aRegular24Outline"
 		"fgcolor"		"Ammo In Reserve"
 		"xpos"			"75"
 		"ypos"			"38"
@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"aRegular55"
+		"font"			"aRegular55Outline"
 		"fgcolor"		"Ammo No Clip"
 		"xpos"			"10"
 		"ypos"			"30"
