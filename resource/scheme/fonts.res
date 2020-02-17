@@ -345,6 +345,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"aRegular26Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"aRegular28"
 		{
 			"1"

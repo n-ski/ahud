@@ -37,7 +37,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"aRegular55"
+		"font"			"aRegular55Outline"
 		"fgcolor"		"ChargePercent"
 	}
 
