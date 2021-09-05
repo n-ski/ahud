@@ -12,12 +12,12 @@
 		"delta_item_font"		"aRegular20Outline"
 		"delta_item_font_big"	"aRegular20Outline"
 	}
-	
+
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-123"
+		"xpos"			"c-119"
 		"ypos"			"312"
 		"zpos"			"2"
 		"wide"			"100"
@@ -29,7 +29,7 @@
 		"fgcolor"		"Damage Numbers"
 		"font"			"aRegular20Outline"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	"CExLabel"

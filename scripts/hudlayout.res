@@ -211,7 +211,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-181"
+		"xpos"					"c-175"
 		"ypos"					"267"
 		"wide"					"116"
 		"tall"  				"180"
@@ -803,7 +803,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"2"	// distance between the icons (including their backgrounds)
+		"separator_width"		"7"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"2"	// distance from the bottom of the panel
 	}
@@ -1187,7 +1187,7 @@
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
 		"NormalY"		"10"
-		"EngineerY"		"10"
+		"EngineerY"		"210"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"280"

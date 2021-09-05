@@ -1,7 +1,7 @@
 // Default Medic HUD
 
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -14,20 +14,20 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_3"		"../hud/medic_charge_blue_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c101"
-		"ypos"			"30"
+		"xpos"			"c109"
+		"ypos"			"35"
 		"zpos"			"2"
-		"wide"			"115"
-		"tall"			"42"
+		"wide"			"101"
+		"tall"			"32"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -37,7 +37,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"aRegular55Outline"
+		"font"			"aRegular42Outline"
 		"fgcolor"		"ChargePercent"
 	}
 
@@ -48,8 +48,8 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"2"
-		"wide"			"115"
-		"tall"			"42"
+		"wide"			"101"
+		"tall"			"32"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -59,7 +59,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"aRegular55"
+		"font"			"aRegular42"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"ChargeLabel"
@@ -71,11 +71,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c102"
-		"ypos"			"29"
+		"xpos"			"c109"
+		"ypos"			"35"
 		"zpos"			"3"
-		"wide"			"114"
-		"tall"			"43"
+		"wide"			"105"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -84,7 +84,7 @@
 		"PaintBackgroundType"	"0"
         "textinsety" 	"99"
 	}
-	
+
 	"IndividualChargesLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -106,7 +106,7 @@
 		"font"			"aRegular55"
 		"fgcolor"		"ShadowBlack"
 	}
-	
+
 	"ChargeMeterLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -127,18 +127,18 @@
 		"brighttext"	"0"
 		"font"			"aRegular10"
 		"fgcolor"	"150 150 150 255"
-	}	
+	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"-1"
-		"ypos"			"1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"115"
-		"tall"			"42"				
+		"wide"			"101"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -154,15 +154,15 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"-3"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"4"
-		"wide"			"26"
-		"tall"			"38"				
+		"wide"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -177,15 +177,15 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"26"
-		"tall"			"38"				
+		"wide"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -200,15 +200,15 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"26"
-		"tall"			"38"			
+		"wide"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -223,15 +223,15 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"26"
-		"tall"			"38"			
+		"wide"			"24"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -244,7 +244,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -256,21 +256,21 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"ResistIconAnchor"
 	{
 		"ControlName" 	"EditablePanel"
 		"fieldName" 	"ResistIconAnchor"
-		"xpos" 			"c-227"
+		"xpos" 			"c-217"
 		"ypos" 			"0"
 		"wide" 			"25"
 		"tall" 			"25"
 		"visible" 		"1"
 		"enabled" 		"1"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
