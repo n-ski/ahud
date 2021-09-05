@@ -401,16 +401,16 @@
 
 	HudDamageIndicator
 	{
-		"fieldName" "HudDamageIndicator" 
-		"visible" "1" 
-		"enabled" "1"			//skinny damage indicator
-		"MinimumWidth" "10"		//5
-		"MaximumWidth" "10"		//5
-		"StartRadius" "80"		//70
-		"EndRadius" "80"		//70
-		"MinimumHeight" "30"	//120
-		"MaximumHeight" "60"	//120
-		"MinimumTime" "1" 
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "5"
+		"MaximumWidth" "5"
+		"StartRadius" "70"
+		"EndRadius" "70"
+		"MinimumHeight" "60"
+		"MaximumHeight" "120"
+		"MinimumTime" "1"
 	}
 
 	HudCommentary
