@@ -1239,10 +1239,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Code-Pro-LC" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
-				"weight"	"900"
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"1"
 			}
