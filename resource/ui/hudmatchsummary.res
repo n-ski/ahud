@@ -41,6 +41,7 @@
 		{
 			"AnimBlueMedalsYPos"				"50"
 			"AnimRedMedalsYPos"					"50"
+			"AnimStatsContainer12v12YPos"		"70"
 		}
 	}
 
@@ -60,7 +61,7 @@
 
 		if_uses_xp
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -444,7 +445,7 @@
 
 					if_large
 					{
-						"ypos"			"77"
+						"ypos"			"75"
 						"tall"			"340"
 					}
 
@@ -478,6 +479,8 @@
 						{
 							"tall"			"340"
 							"linegap"		"0"
+								"linespacing"	"20"
+								"horiz_inset"	"0"
 						}
 					}
 				}
@@ -500,6 +503,7 @@
 					{
 						"ypos"			"57"
 						"tall"			"360"
+						"visible"		"0"
 					}
 				}
 			}
@@ -714,7 +718,7 @@
 
 					if_large
 					{
-						"ypos"			"77"
+						"ypos"			"75"
 						"tall"			"340"
 					}
 
@@ -748,6 +752,8 @@
 						{
 							"tall"			"340"
 							"linegap"		"0"
+							"linespacing"	"20"
+							"horiz_inset"	"0"
 						}
 					}
 				}
@@ -770,6 +776,7 @@
 					{
 						"ypos"			"57"
 						"tall"			"360"
+						"visible"		"0"
 					}
 				}
 			}

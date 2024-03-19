@@ -66,9 +66,9 @@
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
+				"ypos"		"cs-0.5+3"
+				"wide"		"100"
+				"tall"		"100"
 			}
 
 			"paintbackground"	"0"
