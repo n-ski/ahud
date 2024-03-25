@@ -97,10 +97,10 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	"HealthBoxBG"
+	"HealthBoxBGPlayer"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HealthBoxBG"
+		"fieldName"		"HealthBoxBGPlayer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
