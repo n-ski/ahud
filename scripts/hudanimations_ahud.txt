@@ -5,10 +5,6 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthBonusImage	Alpha	"0"		Linear 0.0 0.0
 
-	Animate	HealthBoxBGPlayer		BgColor		"HP Buff"		Accel 0.0 0.0
-	Animate	HealthBoxBGPlayer		Alpha		"200"		Accel 0.0 0.2
-	Animate	HealthBoxBGPlayer		Alpha		"0"		Accel 0.2 0.4
-
 	Animate	HealthBoxBG		BgColor		"HP Buff"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.2 0.4
@@ -27,9 +23,6 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate	HealthBoxBGPlayer		BgColor		"Blank"		Accel 0.0 0.0
-	Animate	HealthBoxBGPlayer		Alpha		"0"		Accel 0.0 0.0
-
 	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
 }
@@ -40,10 +33,6 @@ event HudHealthDyingPulse
 	StopEvent LingeringHealthFix 0.0
 
 	Animate	PlayerStatusHealthBonusImage	Alpha	"0"		Linear 0.0 0.0
-
-	Animate	HealthBoxBGPlayer		BgColor		"HP Low"		Accel 0.0 0.0
-	Animate	HealthBoxBGPlayer		Alpha		"200"		Accel 0.0 0.2
-	Animate	HealthBoxBGPlayer		Alpha		"0"		Accel 0.2 0.4
 
 	Animate	HealthBoxBG		BgColor		"HP Low"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"200"		Accel 0.0 0.2
@@ -62,9 +51,6 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-
-	Animate	HealthBoxBGPlayer		BgColor		"Blank"		Accel 0.0 0.0
-	Animate	HealthBoxBGPlayer		Alpha		"0"		Accel 0.0 0.0
 
 	Animate	HealthBoxBG		BgColor		"Blank"		Accel 0.0 0.0
 	Animate	HealthBoxBG		Alpha		"0"		Accel 0.0 0.0
