@@ -61,6 +61,9 @@ Scheme
 
 		"ahudPipBoy"			"0 225 0 255"
 
+		"ahudTeamRed"			"251 82 79 255"
+		"ahudTeamBlue"			"153 194 216 255"
+
 		//---------------------------------------------
 
 		// base colors

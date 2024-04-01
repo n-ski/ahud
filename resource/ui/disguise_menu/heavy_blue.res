@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"153 194 216 255"
+		"fgcolor"		"ahudTeamBlue"
 	}
 
 	"NewNumberLabel"
 	{
-		"fgcolor"		"153 194 216 255"
+		"fgcolor"		"ahudTeamBlue"
 	}
 
 	"NumberLabel"
 	{
-		"fgcolor"		"153 194 216 255"
+		"fgcolor"		"ahudTeamBlue"
 	}
 }
