@@ -515,6 +515,17 @@ Scheme
 			}
 		}
 
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Inconsolata"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+
 	}
 	
 	Borders
@@ -811,6 +822,11 @@ Scheme
 		{
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"	"Code-Pro-LC"
+		}
+		"4"
+		{
+			"font"	"resource/fonts/Inconsolata.otf"
+			"name"	"Inconsolata"
 		}
 	}
 }
