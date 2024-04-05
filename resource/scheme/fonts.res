@@ -222,6 +222,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"aRegular10DropShadow"
+		{
+			"1"
+			{
+				"name"			"Code-Pro-LC"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 		"aRegular11"
 		{
 			"1"
