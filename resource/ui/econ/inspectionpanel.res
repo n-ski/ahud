@@ -247,7 +247,7 @@
 		}
 		"consume_mode"
 		{
-			"border"		"ReplayHighlightBorder"
+			"border"		"ahudDarkerGrey"
 		}
 
 		"DebugButton"
