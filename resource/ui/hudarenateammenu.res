@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"Fight!"	[$WIN32]
+		"labelText"		"&1 Fight!"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -146,7 +146,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"Spectate"	[$WIN32]
+		"labelText"		"&2  Spectate"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
