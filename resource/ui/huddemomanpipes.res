@@ -12,7 +12,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"SHIELD"
 		"textAlignment"			"center"
@@ -39,7 +39,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"fgcolor_override"		"White"
 	}
 
 	"PipesPresentPanel"
