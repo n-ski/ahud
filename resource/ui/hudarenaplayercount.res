@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-85"
-		"ypos"			"0"
+		"xpos"			"c-40"
+		"ypos"			"23"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
 
@@ -18,11 +18,12 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"f0"
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"ahudBlue"
+			"proportionaltoparent"	"1"
 
 			"background2"
 			{
@@ -44,7 +45,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"-6"
+			"xpos"			"-4"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
@@ -89,8 +90,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"10"
-			"ypos"			"2"
+			"xpos"			"-4"
+			"ypos"			"-2"
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
@@ -98,6 +99,10 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
+
+			"pin_to_sibling"	"background"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -105,10 +110,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c35"
-		"ypos"			"0"
+		"xpos"			"c0"
+		"ypos"			"23"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
 
@@ -119,11 +124,12 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"f0"
 			"tall"			"23"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"ahudRed"
+			"proportionaltoparent"	"1"
 
 			"background2"
 			{
@@ -145,7 +151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"-6"
+			"xpos"			"-4"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
@@ -190,8 +196,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"32"
-			"ypos"			"2"
+			"xpos"			"-4"
+			"ypos"			"-2"
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
@@ -199,6 +205,10 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
+
+			"pin_to_sibling"	"background"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 	}
 }
