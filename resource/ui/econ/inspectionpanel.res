@@ -127,7 +127,7 @@
 		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
-		"tall"				"25"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -143,79 +143,48 @@
 
 		"ButtonSettings"
 		{
-			"wide"				"19"
-			"tall"				"19"
+			"wide"				"20"
+			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"2"
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labelText"			""
-			"textAlignment"		"south-west"
-			"scaleImage"		"1"
-
-			"fgcolor"			"ahudDullWhite"
-			"defaultFgColor_override" "ahudDullWhite"
-			"armedFgColor_override" "ahudDullWhite"
-			"depressedFgColor_override" "ahudDullWhite"
+			"textAlignment"		"center"
+			"font"				"aRegular16"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 
-			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
-
-			"paintborder"		"0"
-
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"255 255 255 255"
-
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"7"
-				"wide"			"19"
-				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
+			"paintbackground"		"1"
 		}
 
 		"Buttons"
 		{
 			"all"
 			{
-				"userdata"			"2"
-				"image_default"		"store/store_redteam"
-				"image_armed"		"store/store_redteam"
-				"image_selected"	"store/store_redteam"
-
-				"SubImage"
-				{
-					"image"			"store/store_redteam"
-				}
+				"userdata"					"2"
+				"labelText"					"R"
+				"defaultFgColor_override" 	"ahudRed"
+				"armedFgColor_override" 	"ahudWhite"
+				"armedBgColor_override"		"ahudDarkRed"
+				"depressedFgColor_override" "ahudWhite"
+				"depressedBgColor_override"	"ahudDarkRed"
+				"selectedBgColor_override" 	"ahudRed"
 			}
 			"scout"
 			{
-				"userdata"			"3"
-				"image_default"		"store/store_blueteam"
-				"image_armed"		"store/store_blueteam"
-				"image_selected"	"store/store_blueteam"
-
-				"SubImage"
-				{
-					"image"			"store/store_blueteam"
-				}
+				"userdata"					"3"
+				"labelText"					"B"
+				"defaultFgColor_override"	"ahudBlue"
+				"armedFgColor_override"		"ahudWhite"
+				"armedBgColor_override"		"ahudDarkBlue"
+				"depressedFgColor_override"	"ahudWhite"
+				"depressedBgColor_override"	"ahudDarkBlue"
+				"selectedBgColor_override" 	"ahudBlue"
 			}
 		}
 	}
@@ -225,7 +194,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"p.7"
+		"ypos"			"p.7+8"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
