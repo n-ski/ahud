@@ -216,8 +216,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"paintbackground"	"1"
+		"border"		"ahudPanelBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 		"PaintBorder"	"1"
 
 		// Background for the player model & item preview panels
@@ -233,7 +234,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"ahudPanelBorder"
+			"bgcolor_override"	"ahudGrey"
 		}
 
 		"ItemNameLabel"
@@ -1029,22 +1031,26 @@
 
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"defaultFgColor_override" "Blank"
+		"armedFgColor_override" "Blank"
+		"depressedFgColor_override" "Blank"
+		"image_drawcolor"	"ahudWhite"
+		"image_armedcolor"	"255 0 0 255"
 
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"9"
+			"tall"			"9"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"close_button"
+			"image"			"replay/thumbnails/buttons/x"
 			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 
