@@ -741,31 +741,33 @@
 
 	HudVoiceStatus
 	{
-		"fieldName" "HudVoiceStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "r145"
-		"ypos" "0"
-		"wide" "145"
-		"tall" "400"
+		"fieldName"	"HudVoiceStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"r130"
+		"ypos"		"0"
+		"wide"		"150"
+		"tall"		"400"
 
-		"item_wide"	"135"
-		
-		"show_avatar"		"0"
-		
+		"item_wide"	"120"
+		"item_tall"	"16"
+
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
-		
-		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
-		
-		"text_xpos"			"33"
+		"dead_xpos"			"0"
+		"dead_ypos"			"2"
+		"dead_wide"			"12"
+		"dead_tall"			"12"
+
+		"show_voice_icon"	"0"
+
+		"show_avatar"		"1"
+		"show_friend"		"0"
+		"avatar_xpos"		"12"
+		"avatar_ypos"		"0"
+		"avatar_wide"		"16"
+		"avatar_tall"		"16"
+
+		"text_xpos"			"30"
 	}
 
 	HudHintDisplay
