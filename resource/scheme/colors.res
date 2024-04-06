@@ -47,6 +47,7 @@ Scheme
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"
 		"ahudYellow"			"169 123 53 255"
+		"ahudDarkYellow"		"110 80 35 255"
 		"ahudBrightYellow"		"218 165 32 255"
 
 		"ahudWhite"				"242 242 242 255"
