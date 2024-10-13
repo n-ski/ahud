@@ -1333,7 +1333,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"aRegular8"
-		"labelText"		"v2020.1111"
+		"labelText"		"v2024.1013"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -1469,7 +1469,7 @@
 
 		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override"   "0 191 255 255"
-		
+
 		"paintbackground"	"0"
 		"image_drawcolor"	"ahudWhite"
 		"image_armedcolor"	"0 191 255 255"
