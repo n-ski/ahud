@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -26,7 +26,7 @@
 
 		"border"	"QuestStatusBorder"
 		"paintborder"	"0"
-		
+
 		"Header"
 		{
 			"ControlName"	"Label"
@@ -38,6 +38,7 @@
 			"tall"			"18"
 			"zpos"			"4"
 			"textinsetx"	"5"
+			"use_proportional_insets" "1"
 			"fgcolor_override"		"235 226 202 255"
 			"font"			"AchievementTracker_Name"
 			//"wrap"			"1"
@@ -56,6 +57,7 @@
 			"tall"			"f0"
 			"zpos"			"4"
 			"textinsetx"	"5"
+			"use_proportional_insets" "1"
 			"fgcolor_override"		"235 226 202 255"
 			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
@@ -75,8 +77,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"tf2_folder_icon"
-			"scaleImage"	"1"	
-			"proportionaltoparent"	"1"	
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 }

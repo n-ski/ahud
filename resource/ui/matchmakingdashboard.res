@@ -652,7 +652,8 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"100"
+			"wide"			"100" [!$POSIX]
+			"wide"			"105" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -670,8 +671,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
-			"textinsetx"	"22"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -711,7 +712,8 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"80"
+			"wide"			"80" [!$POSIX]
+			"wide"			"85" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -729,8 +731,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"22"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -769,7 +771,8 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"60"
+			"wide"			"60" [!$POSIX]
+			"wide"			"65" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -787,8 +790,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
