@@ -56,5 +56,13 @@ Scheme
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
+		"11"		"resource/linux_fonts/DejaVuSans.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"14"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"16"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"17"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"18"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
