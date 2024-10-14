@@ -388,7 +388,7 @@ Scheme
 		}
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -476,7 +476,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
@@ -489,7 +489,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
@@ -502,7 +502,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
