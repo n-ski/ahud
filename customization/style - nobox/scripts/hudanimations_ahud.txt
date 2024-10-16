@@ -1,6 +1,8 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
+	StopEvent LingeringHealthFix 0.0
+
 	Animate PlayerStatusHealthValue		FgColor		"HP Buff"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec		FgColor		"HP Buff"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui		FgColor		"HP Buff"		Linear 0.0 0.0
@@ -32,6 +34,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	StopEvent LingeringHealthFix 0.0
+
 	Animate PlayerStatusHealthValue		FgColor		"HP Low"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec		FgColor		"HP Low"		Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui		FgColor		"HP Low"		Linear 0.0 0.0
@@ -63,6 +67,8 @@ event HudHealthDyingPulseStop
 //Low Ammo Pulse
 event HudLowAmmoPulse
 {
+	StopEvent LingeringAmmoFix 0.0
+
 	Animate AmmoInClip		FgColor		"LowAmmo1"		Linear 0.0 0.075
 	Animate AmmoInClip		FgColor		"LowAmmo2"		Linear 0.125 0.075
 
